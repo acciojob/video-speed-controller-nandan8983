@@ -1,2 +1,8 @@
-
 /* Your CSS Code here. */
+.player { max-width: 800px; margin: 40px auto; background: #222; color: #fff; padding: 20px; border-radius: 8px; }
+    .player video { width: 100%; border-radius: 8px; }
+    .player__controls { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+    .progress { background:#444; cursor: pointer; flex: 1; height: 8px; border-radius: 4px; overflow: hidden; }
+    .progress__filled { background: red; width:0; height: 100%; transition: width 0.1s; }
+    .player__button, .player__slider { font-size: 18px; }
+    .player__slider { width: 100px; }
